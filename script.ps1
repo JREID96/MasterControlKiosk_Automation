@@ -127,7 +127,7 @@ Write-Host "Provisioned package installed successfully."
 Write-Host 
 
 Write-Host "Removing checkpoint file...."
-Remove-Item C:\Temp\stage1complete.mcka
+Remove-Item C:\Temp\MasterControl\stage1complete.mcka
 Write-Host "File removed."
 
 Read-Host -prompt "MasterControl kiosk has been configured successfully. Press any key to reboot the machine."
@@ -135,7 +135,7 @@ shutdown -r -t 30
 }
 
 
-$file = "C:\Temp\stage1complete.mcka"
+$file = "C:\Temp\MasterControl\stage1complete.mcka"
 if((Test-Path $file))
 {
     Write-Host "Previous install configuration detected. Please make sure you are signed in as the 'kioskmode' user inside a non-elevated Powershell window"
