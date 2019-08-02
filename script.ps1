@@ -105,7 +105,7 @@ Write-Host
 Write-Host "Configuring Internet Explorer proxy settings...."
 $regKey="HKU:\$sid\Software\Microsoft\Windows\CurrentVersion\Internet Settings"
 $proxy = "0.0.0.0:80"
-$whitelist = {https://*.mastercontrol.com;http://windowsupdate.microsoft.com;http://*.windowsupdate.microsoft.com;https://*.windowsupdate.microsoft.com;http://download.windowsupdate.com;http://*.download.windowsupdate.com;http://*.windowsupdate.com;http://wustat.windows.com;http://ntservicepack.microsoft.com;http://*update.microsoft.com;https://*update.microsoft.com;http://download.windowsupdate.com;http://*.microsoft.com;http://*.adobe.com;http://keystoneind.mastercontrol.com;http://*learnshare.com;https://lms2.learnshare.com}
+$whitelist = {}
 
 Write-Host
 
