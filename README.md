@@ -1,4 +1,4 @@
-MasterControl Kiosk Deployment v1.2.0
+MasterControl Kiosk Deployment v1.2.3
 
 This script automates the creation of the MasterControl kiosks. 
 If regkey changes need to be made, please use the "Remove_Restrictions.reg" to merge original changes back into the registry.
